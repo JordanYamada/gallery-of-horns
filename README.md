@@ -1,4 +1,39 @@
-# Getting Started with Create React App
+# Time Estimate
+
+Number and name of feature: 3[images, votes,bootstrap]
+
+### Feature 1
+
+Estimate of time needed to complete: 30 mins
+
+Start time: 2:00
+
+Finish time: 3:00
+
+Actual time needed to complete: 1 hour
+
+### Feature 2
+
+Estimate of time needed to complete: 1 hour 30 mins
+
+Start time: 3:20
+
+Finish time: 3:55
+
+Actual time needed to complete: 35 mins
+
+### Feature 3
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 4:00
+
+Finish time: 4:45
+
+Actual time needed to complete: 45 mins
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
