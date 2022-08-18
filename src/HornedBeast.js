@@ -1,6 +1,8 @@
 import React from "react";
-import './HornedBeast.css';
+import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
+import './HornedBeast.css';
+
 
 class HornedBeast extends React.Component {
   constructor(props) {
@@ -16,10 +18,19 @@ class HornedBeast extends React.Component {
     });
   };
 
+  // handleShowModal = (beast) => {
+  //   this.props.handleShowModal(beast)
+  // }
+
+  // helperClick = (img) => {
+  //   this.props.handleShowModal(img)
+  // }
+
   render() {
     return (
-      <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={this.props.image_url} alt={this.props.description}/>
+      <Col>
+      <Card className="h-100" style={{ width: '18rem' }}>
+      <Card.Img onClick={() => this.props.handleShowModal(this.props.beast)} variant="top" src={this.props.image_url} alt={this.props.description}/>
       <Card.Body>
       <p>💖 {this.state.votes}</p>
         <Card.Title>{this.props.title}</Card.Title>
@@ -29,6 +40,7 @@ class HornedBeast extends React.Component {
         <p onClick={this.handleVotes}>Votes!</p>
       </Card.Body>
     </Card>
+    </Col>
       // <article>
       //   <h2>{this.props.title}</h2>
       //   <p>💖 {this.state.votes}</p>
