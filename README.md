@@ -44,6 +44,20 @@ Estimate of time needed to complete: 2 hours
 
 Start time: 1:30
 
+Finish time: 10:00(the next day)
+
+Actual time needed to complete: the next day
+
+## Lab04
+
+Number and name of feature: 1[Forms]
+
+### Feature 1
+
+Estimate of time needed to complete: 2 hours
+
+Start time: 2:40
+
 Finish time: 
 
 Actual time needed to complete: 
