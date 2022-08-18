@@ -1,4 +1,6 @@
-# Time Estimate
+# Time Estimates
+
+## Lab02
 
 Number and name of feature: 3[images, votes,bootstrap]
 
@@ -31,6 +33,20 @@ Start time: 4:00
 Finish time: 4:45
 
 Actual time needed to complete: 45 mins
+
+## Lab03
+
+Number and name of feature: 1[Display a Modal]
+
+### Feature 1
+
+Estimate of time needed to complete: 2 hours
+
+Start time: 1:30
+
+Finish time: 
+
+Actual time needed to complete: 
 
 
 ## Getting Started with Create React App
