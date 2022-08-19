@@ -10,4 +10,4 @@ Worked with Amy Pierce, Jeffrey Smith, Alfredo Orquiz
 Worked with Amy Pierce, Jeffrey Smith, Alfredo Orquiz, Had  help from David Suy
 
 ## Lab04
-Worked with Amy Pierce, Jeffrey Smith, Alfredo Orquiz
+Worked with Amy Pierce, Jeffrey Smith, Alfredo Orquiz. Had help from TA Shane Roach

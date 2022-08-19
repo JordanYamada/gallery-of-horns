@@ -30,12 +30,12 @@ class HornedBeast extends React.Component {
     return (
       <Col>
       <Card className="h-100" style={{ width: '18rem' }}>
-      <Card.Img onClick={() => this.props.handleShowModal(this.props.beast)} variant="top" src={this.props.image_url} alt={this.props.description}/>
+      <Card.Img onClick={() => this.props.handleShowModal(this.props.beast)} variant="top" src={this.props.beast.image_url} alt={this.props.beast.description}/>
       <Card.Body>
       <p>💖 {this.state.votes}</p>
-        <Card.Title>{this.props.title}</Card.Title>
+        <Card.Title>{this.props.beast.title}</Card.Title>
         <Card.Text>
-        {this.props.description}
+        {this.props.beast.description}
         </Card.Text>
         <p onClick={this.handleVotes}>Votes!</p>
       </Card.Body>
